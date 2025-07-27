@@ -1,0 +1,135 @@
+﻿<Window x:Class="PhanThanhVuongWPF.BookingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PhanThanhVuongWPF"
+        mc:Ignorable="d"
+        Title="Tao Booking Hotel" Height="500" Width="850"
+        WindowStartupLocation="CenterScreen">
+    <Grid x:Name="dataSearchWindow">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <Grid Grid.Row="0" Background="#2E86AB">
+            <TextBlock Text="Booking Hotel" 
+                      FontSize="20" FontWeight="Bold" 
+                      Foreground="White" 
+                      VerticalAlignment="Center" 
+                      Margin="20,0"/>
+            <Button Content="X" 
+                   Click="btnCloseBooking_Click" 
+                   HorizontalAlignment="Right" 
+                   Width="30" Height="30" 
+                   Margin="0,0,10,0"
+                   Background="#FF4444" 
+                   Foreground="White" 
+                   BorderThickness="0"/>
+        </Grid>
+
+        <!-- Main Content -->
+        <Grid Grid.Row="1" x:Name="dataSearch" Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Customer -->
+            <StackPanel Grid.Row="0" Grid.ColumnSpan="2" Orientation="Horizontal" Margin="0,0,0,15">
+                <TextBlock Text="Customer: " FontWeight="Bold" VerticalAlignment="Center"/>
+                <TextBlock x:Name="Customer" Text="{Binding CustomerFullName}" 
+                          Foreground="Blue" FontWeight="Bold" VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <!-- Room Type -->
+            <StackPanel Grid.Row="1" Grid.Column="0" Margin="0,0,10,15">
+                <TextBlock Text="Room Type" FontWeight="Bold" Margin="0,0,0,5"/>
+                <ComboBox x:Name="cmbRoomType" 
+                         ItemsSource="{Binding RoomType}" 
+                         DisplayMemberPath="RoomTypeName" 
+                         SelectionChanged="cmbRoomType_Changed" 
+                         Height="30"/>
+            </StackPanel>
+
+            <!-- Description -->
+            <StackPanel Grid.Row="1" Grid.Column="1" Margin="10,0,0,15">
+                <TextBlock Text="Description" FontWeight="Bold" Margin="0,0,0,5"/>
+                <TextBox x:Name="txtTypeDescription" 
+                        Text="{Binding TypeDescription}" 
+                        IsReadOnly="True" 
+                        Height="30" 
+                        Background="#F0F0F0"/>
+            </StackPanel>
+
+            <!-- Number of Person -->
+            <StackPanel Grid.Row="2" Grid.Column="0" Margin="0,0,10,15">
+                <TextBlock Text="Number of Person" FontWeight="Bold" Margin="0,0,0,5"/>
+                <TextBox x:Name="txtNumberOfPerson" Height="30"/>
+            </StackPanel>
+
+            <!-- Check-in Date -->
+            <StackPanel Grid.Row="3" Grid.Column="0" Margin="0,0,10,15">
+                <TextBlock Text="Check-in Date" FontWeight="Bold" Margin="0,0,0,5"/>
+                <DatePicker x:Name="dpCheckIn" 
+                           SelectedDateChanged="dpCheckIn_Changed" 
+                           Height="30"/>
+            </StackPanel>
+
+            <!-- Check-out Date -->
+            <StackPanel Grid.Row="3" Grid.Column="1" Margin="10,0,0,15">
+                <TextBlock Text="Check-out Date" FontWeight="Bold" Margin="0,0,0,5"/>
+                <DatePicker x:Name="dpCheckOut" 
+                           SelectedDateChanged="dpCheckOut_Changed" 
+                           Height="30"/>
+            </StackPanel>
+
+            <!-- DataGrid -->
+            <DataGrid Grid.Row="5" Grid.ColumnSpan="2" 
+                     x:Name="dataGridRooms" 
+                     AutoGenerateColumns="True" 
+                     Visibility="Collapsed" 
+                     SelectionChanged="chooseRoom"
+                     Margin="0,10,0,0"/>
+        </Grid>
+
+        <!-- Buttons -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" 
+                   HorizontalAlignment="Center" 
+                   Background="#F0F0F0">
+            <Button x:Name="btnSearch" 
+                   Content="Search Room" 
+                   Click="btnSearch_Click" 
+                   Width="100" Height="35" 
+                   Margin="10" 
+                   Background="#2E86AB" 
+                   Foreground="White"/>
+            <Button x:Name="btnBooking" 
+                   Content="Booking Now" 
+                   Click="btnBooking_Click" 
+                   Visibility="Collapsed" 
+                   Width="100" Height="35" 
+                   Margin="10" 
+                   Background="Green" 
+                   Foreground="White"/>
+            <Button x:Name="btnClose" 
+                   Content="Close" 
+                   Visibility="Collapsed" 
+                   Width="100" Height="35" 
+                   Margin="10" 
+                   Background="Gray" 
+                   Foreground="White"/>
+        </StackPanel>
+    </Grid>
+</Window>

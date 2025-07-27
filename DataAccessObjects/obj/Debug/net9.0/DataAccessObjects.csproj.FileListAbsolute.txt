@@ -1,0 +1,5 @@
+D:\FPT-University\FPT_SU25\PRN212\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net9.0\DataAccessObjects.csproj.AssemblyReference.cache
+D:\FPT-University\FPT_SU25\PRN212\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net9.0\DataAccessObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT-University\FPT_SU25\PRN212\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net9.0\DataAccessObjects.AssemblyInfoInputs.cache
+D:\FPT-University\FPT_SU25\PRN212\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net9.0\DataAccessObjects.AssemblyInfo.cs
+D:\FPT-University\FPT_SU25\PRN212\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net9.0\DataAccessObjects.csproj.CoreCompileInputs.cache

@@ -1,0 +1,16 @@
+E:\FUMiniHotelSystem\Repository\bin\Debug\net9.0\appsettings.json
+E:\FUMiniHotelSystem\Repository\bin\Debug\net9.0\Repository.deps.json
+E:\FUMiniHotelSystem\Repository\bin\Debug\net9.0\Repository.dll
+E:\FUMiniHotelSystem\Repository\bin\Debug\net9.0\Repository.pdb
+E:\FUMiniHotelSystem\Repository\bin\Debug\net9.0\BusinessObjects.dll
+E:\FUMiniHotelSystem\Repository\bin\Debug\net9.0\BusinessObjects.pdb
+E:\FUMiniHotelSystem\Repository\obj\Debug\net9.0\Repository.csproj.AssemblyReference.cache
+E:\FUMiniHotelSystem\Repository\obj\Debug\net9.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\FUMiniHotelSystem\Repository\obj\Debug\net9.0\Repository.AssemblyInfoInputs.cache
+E:\FUMiniHotelSystem\Repository\obj\Debug\net9.0\Repository.AssemblyInfo.cs
+E:\FUMiniHotelSystem\Repository\obj\Debug\net9.0\Repository.csproj.CoreCompileInputs.cache
+E:\FUMiniHotelSystem\Repository\obj\Debug\net9.0\Repository.csproj.Up2Date
+E:\FUMiniHotelSystem\Repository\obj\Debug\net9.0\Repository.dll
+E:\FUMiniHotelSystem\Repository\obj\Debug\net9.0\refint\Repository.dll
+E:\FUMiniHotelSystem\Repository\obj\Debug\net9.0\Repository.pdb
+E:\FUMiniHotelSystem\Repository\obj\Debug\net9.0\ref\Repository.dll

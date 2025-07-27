@@ -1,0 +1,14 @@
+E:\FUMiniHotelSystem\BusinessObjects\bin\Debug\net9.0\BusinessObjects.deps.json
+E:\FUMiniHotelSystem\BusinessObjects\bin\Debug\net9.0\BusinessObjects.runtimeconfig.json
+E:\FUMiniHotelSystem\BusinessObjects\bin\Debug\net9.0\BusinessObjects.dll
+E:\FUMiniHotelSystem\BusinessObjects\bin\Debug\net9.0\BusinessObjects.pdb
+E:\FUMiniHotelSystem\BusinessObjects\obj\Debug\net9.0\BusinessObjects.csproj.AssemblyReference.cache
+E:\FUMiniHotelSystem\BusinessObjects\obj\Debug\net9.0\BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+E:\FUMiniHotelSystem\BusinessObjects\obj\Debug\net9.0\BusinessObjects.AssemblyInfoInputs.cache
+E:\FUMiniHotelSystem\BusinessObjects\obj\Debug\net9.0\BusinessObjects.AssemblyInfo.cs
+E:\FUMiniHotelSystem\BusinessObjects\obj\Debug\net9.0\BusinessObjects.csproj.CoreCompileInputs.cache
+E:\FUMiniHotelSystem\BusinessObjects\obj\Debug\net9.0\BusinessObjects.dll
+E:\FUMiniHotelSystem\BusinessObjects\obj\Debug\net9.0\refint\BusinessObjects.dll
+E:\FUMiniHotelSystem\BusinessObjects\obj\Debug\net9.0\BusinessObjects.pdb
+E:\FUMiniHotelSystem\BusinessObjects\obj\Debug\net9.0\BusinessObjects.genruntimeconfig.cache
+E:\FUMiniHotelSystem\BusinessObjects\obj\Debug\net9.0\ref\BusinessObjects.dll
